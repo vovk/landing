@@ -1,0 +1,76 @@
+header{
+    background: url(img/topbg.jpg) no-repeat center center;
+    background-size: cover;
+    min-height: 506px;
+}
+.navbar{
+    min-height: 151px!important;
+    margin-bottom: 0!important;
+}
+.top-logo{
+    padding-top: 12px;
+}
+.top-logo::after{
+    display: table;
+    content: "Инженерные системы безопасности жизнедеятельности зданий и сооружений";
+    color: #000;
+    font-size: 13px;
+    font-family: "Century Gothic";
+    line-height: 1.3;
+    padding-top: 5px;
+    width: 275px;
+    position: absolute;
+    left: 23px;
+}
+.camera-img{
+    cursor: pointer;
+    position: absolute;
+    right: -67px;
+    bottom: -91px;
+}
+.camera-block{
+}
+.camera-block p{
+    color: #000;
+    font-family: "ArimoRegular";
+    font-size: 23px;
+    padding-top: 59px;
+    line-height: 1.2;
+}
+.camera-block p:nth-of-type(2){
+    font-size: 31px;
+    padding-top: 6px;
+}
+hr{
+    border-top: 1px solid black!important;
+    margin-top: 23px!important;
+    height: 1px;
+    width: 436px;
+}
+section{
+    position: relative;
+}
+section:before{
+    /*background: #ffffff;*/
+    /*background: linear-gradient();*/
+    content: "";
+    display: block;
+    height: 10px;
+}
+section.camera{
+    z-index: 1;
+}
+section.system-download{
+    z-index: 0;
+}
+h2{
+    border-bottom: 1px solid #0961a5!important;
+    color: #000000!important;
+    font-family: "ArimoBold" !important;
+    /*font-weight: bold!important;*/
+    font-size: 40px!important;
+    padding-bottom: 20px;
+}
+.system-download-block{
+    padding-top: 77px;
+}
